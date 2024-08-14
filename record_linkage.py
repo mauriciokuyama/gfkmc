@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import timeit
-import swifter
+# import swifter
 
 def record_linkage(df_orig, df_anon, att_tree, numericals, categoricals, num_intervals=False):
     if numericals:
